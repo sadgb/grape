@@ -1,13 +1,15 @@
-### 1.2.5 (2019/12/01)
+### 1.3.0 (Next)
 
 #### Features
 
-* [#1931](https://github.com/ruby-grape/grape/pull/1931): Introduces LazyBlock to generate expressions that will executed at mount time - [@myxoh](https://github.com/myxoh).
-* [#1918](https://github.com/ruby-grape/grape/pull/1918): Helper methods to access controller context from middleware - [@NikolayRys](https://github.com/NikolayRys).
-* [#1915](https://github.com/ruby-grape/grape/pull/1915): Micro optimizations in allocating hashes and arrays - [@dnesteryuk](https://github.com/dnesteryuk).
-* [#1904](https://github.com/ruby-grape/grape/pull/1904): Allows Grape to load files on startup rather than on the first call - [@myxoh](https://github.com/myxoh).
-* [#1907](https://github.com/ruby-grape/grape/pull/1907): Adds outside configuration to Grape with `configure` - [@unleashy](https://github.com/unleashy).
-* [#1914](https://github.com/ruby-grape/grape/pull/1914): Run specs in random order - [@splattael](https://github.com/splattael).
+* Your contribution here.
+* [#1944](https://github.com/ruby-grape/grape/pull/1944): Reduced attribute_translator string allocations - [@ericproulx](https://github.com/ericproulx).
+* [#1943](https://github.com/ruby-grape/grape/pull/1943): Reduce number of regex string allocations - [@ericproulx](https://github.com/ericproulx).
+* [#1942](https://github.com/ruby-grape/grape/pull/1942): Optimized retained memory methods - [@ericproulx](https://github.com/ericproulx).
+* [#1941](https://github.com/ruby-grape/grape/pull/1941): Frozen string literal - [@ericproulx](https://github.com/ericproulx).
+* [#1940](https://github.com/ruby-grape/grape/pull/1940): Get rid of a needless step in HashWithIndifferentAccess - [@dnesteryuk](https://github.com/dnesteryuk).
+* [#1938](https://github.com/ruby-grape/grape/pull/1938): Add project metadata to the gemspec - [@orien](https://github.com/orien).
+* [#1920](https://github.com/ruby-grape/grape/pull/1920): Replace Virtus with dry-types - [@dnesteryuk](https://github.com/dnesteryuk).
 
 #### Fixes
 
